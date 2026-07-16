@@ -178,3 +178,5 @@ html {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+html { overflow-x: hidden; }

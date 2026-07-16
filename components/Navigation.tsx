@@ -114,6 +114,7 @@ export function Navigation({ onCommandPalette }: NavigationProps) {
 
             <motion.button
               className="lg:hidden p-2 text-foreground"
+              aria-label="Toggle navigation menu"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               whileTap={{ scale: 0.9 }}
             >

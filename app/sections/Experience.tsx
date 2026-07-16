@@ -64,7 +64,7 @@ export function Experience() {
           </p>
         </div>
 
-        <div className="relative border-l border-slate-700 ml-4">
+        <div className="relative md:border-l border-slate-700 ml-4 md:ml-0 md:pl-4">
           {experiences.map((exp, index) => (
             <div
               key={index}

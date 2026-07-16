@@ -12,7 +12,7 @@ export function About() {
           subtitle="Introduction"
         />
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative">
               <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-2xl bg-gradient-to-br from-primary/20 via-accent/10 to-primary/20 p-1">
                 <div className="w-full h-full rounded-2xl bg-card flex items-center justify-center relative overflow-hidden">
