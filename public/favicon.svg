@@ -1,0 +1,21 @@
+<svg xmlns="http://w3.org" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Hexagon -->
+  <path d="M256,16L488,128V384L256,496L24,384V128Z" fill="url(#blueGrad)" />
+
+  <!-- Inner Stroke/Border -->
+  <path d="M256,32L464,136V376L256,480L48,376V136Z" fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.3" />
+
+  <!-- Minimalist Placeholder Shape (Chevron) -->
+  <path d="M180,296L256,216L332,296" fill="none" stroke="url(#iconGrad)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
