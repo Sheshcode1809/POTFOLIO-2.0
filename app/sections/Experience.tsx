@@ -38,7 +38,7 @@ const experiences: Experience[] = [
   {
     role: "Computer Science Engineering Student",
     company: "Final Year Engineering",
-    duration: "2023 – Present",
+    duration: "2023 – 2026",
     description:
       "Focused on Artificial Intelligence, Machine Learning, Data Science, Python, and Full Stack Development while building multiple portfolio-ready projects.",
     achievements: [
