@@ -66,22 +66,10 @@
 /* ===== RESPONSIVE IMPROVEMENTS ===== */
 /* All colors and layout properties remain unchanged */
 
-/* Better touch targets for mobile */
-@layer base {
-  button, 
-  a,
-  [role="button"],
-  input,
-  select,
-  textarea {
+/* Safe touch-target utility — apply .touch-target only to primary CTAs */
+@layer utilities {
+  .touch-target {
     @apply min-h-[44px] min-w-[44px];
-  }
-  
-  /* Maintain visual consistency while improving touch targets */
-  button:not([class*="p-"]):not([class*="h-"]),
-  a:not([class*="p-"]):not([class*="h-"]),
-  [role="button"]:not([class*="p-"]):not([class*="h-"]) {
-    @apply p-2;
   }
 }
 

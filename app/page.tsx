@@ -12,7 +12,7 @@ import { Skills } from "./sections/Skills"
 // import { Testimonials } from "./sections/Testimonials"
 // import { Blog } from "./sections/Blog"
 import { Contact } from "./sections/Contact"
-import { Footer } from "./sections/Footer"
+// import { Footer } from "./sections/Footer"
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
         <Contact />
       </main>
       
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
