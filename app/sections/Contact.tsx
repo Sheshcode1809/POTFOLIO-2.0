@@ -67,7 +67,7 @@ export function Contact() {
                   Preferred Tech Stack
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Python • TesorFlow • Maching Learning • LLM • Agentic AI • RAG • ChromaDb
+                  Python • TensorFlow • Machine Learning • LLM • Agentic AI • RAG • ChromaDb
                 </p>
               </div>
             </div>
