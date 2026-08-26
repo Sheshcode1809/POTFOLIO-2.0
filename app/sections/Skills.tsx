@@ -37,17 +37,6 @@ const skillCategories = [
       "Vector Databases",
     ],
   },
-  // {
-  //   title: "Web Development",
-  //   skills: [
-  //     "Next.js",
-  //     "React",
-  //     "Tailwind CSS",
-  //     "Streamlit",
-  //     "Node.js",
-  //     "REST APIs",
-  //   ],
-  // },
   {
     title: "Tools",
     skills: [
