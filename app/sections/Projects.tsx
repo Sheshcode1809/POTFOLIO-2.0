@@ -16,8 +16,8 @@ const projects = [
     description:
       "Retrieval-Augmented Generation application that answers questions from PDF documents using vector embeddings and semantic search.",
     technologies: ["Python", "LangChain", "OpenAI", "Streamlit"],
-    github: "",
-    demo: "#",
+    github: "https://github.com/Sheshcode1809/RAG",
+    demo: "https://interactiverag1809.streamlit.app/",
     whyIBuiltThis: "Reading through long documents is time-consuming. I wanted a quick way to interact with research papers and extract information intelligently without manual skimming.",
     metrics: ["Reduced information retrieval time by 80%", "Capable of processing 50+ page PDFs in under 10 seconds"]
   },

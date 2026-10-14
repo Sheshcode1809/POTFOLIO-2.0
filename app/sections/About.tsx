@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function About() {
@@ -19,10 +20,17 @@ export function About() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
 
                 <div className="relative z-10 text-center p-6 sm:p-8">
-                  <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-4 sm:mb-6 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                    <span className="text-3xl sm:text-4xl font-bold text-white">
-                      SK
-                    </span>
+                  <div className="relative w-28 h-28 sm:w-36 sm:h-36 mx-auto mb-4 sm:mb-6 rounded-full p-1 bg-gradient-to-br from-primary to-accent shadow-lg ring-4 ring-primary/10">
+                    <div className="relative w-full h-full rounded-full overflow-hidden">
+                      <Image
+                        src="/profile.jpg"
+                        alt="Shesh Kanade"
+                        fill
+                        sizes="(max-width: 640px) 112px, 144px"
+                        className="object-cover object-top"
+                        priority
+                      />
+                    </div>
                   </div>
 
                   <h3 className="text-lg sm:text-xl font-semibold text-foreground">
